@@ -1,5 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.GettingStarted", "1.GettingStarted", "{437837AA-AECD-4F38-BBB5-AE8873E1DCCC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{E206559B-5371-451B-AD2E-D5E304174D51}"
@@ -14,12 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "1.Get
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "1.GettingStarted\Movies.Contracts\Movies.Contracts.csproj", "{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "Helpers\Identity.Api\Identity.Api.csproj", "{E2EE7509-935E-499C-BAC6-704FDBE4252E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{E2EE7509-935E-499C-BAC6-704FDBE4252E} = {E206559B-5371-451B-AD2E-D5E304174D51}
 		{5F67A488-3747-493A-9F82-DF6082D686F2} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
 		{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
 		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
@@ -37,5 +41,9 @@ Global
 		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EE7509-935E-499C-BAC6-704FDBE4252E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EE7509-935E-499C-BAC6-704FDBE4252E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EE7509-935E-499C-BAC6-704FDBE4252E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EE7509-935E-499C-BAC6-704FDBE4252E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
